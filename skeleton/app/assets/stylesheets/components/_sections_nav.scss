@@ -1,0 +1,24 @@
+//bottom border
+//gray background on links
+//spacing
+
+.sections-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-bottom: 1px solid $light-gray;
+  font-family: $sans-serif;
+}
+
+.sections-nav ul > li > a {
+  margin-right: 14px;
+  padding: 2px;
+}
+
+.sections-nav ul > li > a:hover {
+  margin-right: 14px;
+  text-decoration: none;
+  background: $light-gray;
+  padding: 2px;
+}
