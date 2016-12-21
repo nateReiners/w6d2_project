@@ -13,6 +13,22 @@ with a class attribute containing 'col-' */
   padding-right: 0;
 }
 
+.col-1 {
+  width: 20%;
+}
+
+.col-2 {
+  width: 40%;
+}
+
+.col-3 {
+  width: 30%;
+}
+//
+// .col-2-1 {
+//   width: 50%;
+// }
+
 @media all and (max-width: 1000px) {
   [class*='col-'] {
     width: 100%;
